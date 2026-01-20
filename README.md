@@ -1,10 +1,10 @@
 # InfoBOT (Agricultural Chatbot) Using Python
 
-This project is a simple command-line chatbot called **InfoBOT**, built to help users get quick information about agricultural crops. It uses basic Python I/O and a modular structure for easy extension.
+This project is a simple command-line chatbot called **InfoBOT**, built to help users get quick information about crops. It uses basic Python I/O and a modular structure for easy extension.
 
 ---
 
-## 🤖 What This Project Does
+## What This Project Does
 
 * Greets the user and interacts in a conversational style
 * Recognizes basic greetings and polite commands
@@ -14,21 +14,21 @@ This project is a simple command-line chatbot called **InfoBOT**, built to help 
 
 ---
 
-## 🗂️ Key Steps
+## Key Steps
 
-✅ **Startup**
+**Startup**
 
 * `chatbot.py` welcomes the user and enters a loop waiting for input
 
-✅ **User Interaction**
+**User Interaction**
 
 * Detects greetings (`hi`, `hello`, `namaste`, `hey`, `yo`)
 * Prompts for name and agricultural background
 * Handles `ok` to prompt for crop input
 * Handles `yes` or `no` for background and guides accordingly
-* Ends session politely if user says `thank you`
+* Ends session politely if user says `thank you.`
 
-✅ **Crop Lookup**
+**Crop Lookup**
 
 * Uses `agriculture.py` to fetch crop details
 * Prints info if crop found
@@ -36,7 +36,7 @@ This project is a simple command-line chatbot called **InfoBOT**, built to help 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python 3.x
 * Standard Input/Output (`input()`, `print()`)
@@ -45,7 +45,7 @@ This project is a simple command-line chatbot called **InfoBOT**, built to help 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 Clone this repo:
 
@@ -69,7 +69,7 @@ Then interact by typing:
 
 ---
 
-## 📌 Extending This Project
+## Extending This Project
 
 * Add more crops to `agriculture.py`
 * Improve the conversation flow and understanding
@@ -78,12 +78,12 @@ Then interact by typing:
 
 ---
 
-## 📄 Report
+## Report
 
 For detailed code explanation and flow, check the comments inside `chatbot.py` and `agriculture.py`.
 
 ---
 
-## ⚓ License
+## License
 
-Fork it, build on it, adapt it for your own needs — just credit this repo if you reuse or share.
+Fork it, build on it, adapt it for your own needs, just credit this repo if you reuse or share.
